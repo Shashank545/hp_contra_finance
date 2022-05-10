@@ -1,0 +1,2 @@
+Num of counts :45
+Talend Job executed successfully
