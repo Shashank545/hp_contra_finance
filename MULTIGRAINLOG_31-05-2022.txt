@@ -1,0 +1,1071 @@
+Checking ports...
+
+Sending job 'Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin' to server (g8t00841s.inc.hpicorp.net:8001)...
+
+File transfer completed.
+
+Deploying job 'Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin' on server (15.60.8.119:8000)...
+
+Running job 'Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin'...
+Starting job Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin at 10:47 31/05/2022.
+Picked up JAVA_TOOL_OPTIONS: -Dlog4j2.formatMsgNoLookups=true
+[statistics] connecting to socket on port 3717
+[statistics] connected
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_ResourceManagerScheduler" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_ResourceManagerScheduler" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_ResourceManager" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_ResourceManager" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_JobHistory" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_JobHistory" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_NameNodePrin" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_NameNodePrin" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_JTOrRMPrin" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_JTOrRMPrin" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_JobHistroyPrin" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_JobHistroyPrin" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_Principal_HostName" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_Principal_HostName" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_StagingDirectory" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_StagingDirectory" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_NameNodeUri" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_NameNodeUri" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_Principal" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_Principal" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_KeyTab" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_KeyTab" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Queue_Name" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Queue_Name" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_namenode_rpc_address_hdpitgnn_nn1" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_namenode_rpc_address_hdpitgnn_nn1" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_namenode_rpc_address_hdpitgnn_nn2" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_namenode_rpc_address_hdpitgnn_nn2" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_client_failover_proxy_provider_hdpitgnn" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_client_failover_proxy_provider_hdpitgnn" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_ha_namenodes_hdpitgnn" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_ha_namenodes_hdpitgnn" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_namenode_rpc_address_HDPPRODNN_nn1" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_namenode_rpc_address_HDPPRODNN_nn1" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_namenode_rpc_address_HDPPRODNN_nn2" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_namenode_rpc_address_HDPPRODNN_nn2" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_client_failover_proxy_provider_HDPPRODNN" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_client_failover_proxy_provider_HDPPRODNN" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_ha_namenodes_HDPPRODNN" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_ha_namenodes_HDPPRODNN" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_client_failover_proxy_provider_edldevnn" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_client_failover_proxy_provider_edldevnn" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_ha_namenodes_edldevnn" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_ha_namenodes_edldevnn" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_namenode_rpc_address_edldevnn_nn1" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_namenode_rpc_address_edldevnn_nn1" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_namenode_rpc_address_edldevnn_nn2" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_namenode_rpc_address_edldevnn_nn2" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_nameservices" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_nameservices" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_yarn_resourcemanager_ha_rm_ids" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_yarn_resourcemanager_ha_rm_ids" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_yarn_resourcemanager_hostname_rm1" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_yarn_resourcemanager_hostname_rm1" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_yarn_resourcemanager_hostname_rm2" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_yarn_resourcemanager_hostname_rm2" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_yarn_resourcemanager_ha_enabled" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_yarn_resourcemanager_ha_enabled" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_yarn_resourcemanager_cluster_id" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_yarn_resourcemanager_cluster_id" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_yarn_application_classpath" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_yarn_application_classpath" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_mapreduce_jobhistory_done_dir" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_mapreduce_jobhistory_done_dir" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_mapreduce_jobhistory_intermediate_done_dir" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_mapreduce_jobhistory_intermediate_done_dir" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_mapreduce_job_am_access_disabled" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_mapreduce_job_am_access_disabled" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_mapreduce_application_framework_path" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_mapreduce_application_framework_path" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_mapreduce_application_classpath" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_mapreduce_application_classpath" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "sparkHdpJtorrmPrin" is a new parameter of Implicit_Context_Context
+Warning: Parameter "sparkHdpJtorrmPrin" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "sparkHdpJobHistory" is a new parameter of Implicit_Context_Context
+Warning: Parameter "sparkHdpJobHistory" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "sparkHdpResourceManagerScheduler" is a new parameter of Implicit_Context_Context
+Warning: Parameter "sparkHdpResourceManagerScheduler" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "sparkHdpJobHistoryPrin" is a new parameter of Implicit_Context_Context
+Warning: Parameter "sparkHdpJobHistoryPrin" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "sparkHdpResourceManager" is a new parameter of Implicit_Context_Context
+Warning: Parameter "sparkHdpResourceManager" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "sparkHdpEventLogDir" is a new parameter of Implicit_Context_Context
+Warning: Parameter "sparkHdpEventLogDir" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "sparkHdpHistoryAddress" is a new parameter of Implicit_Context_Context
+Warning: Parameter "sparkHdpHistoryAddress" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "sparkPropertiesTempDir" is a new parameter of Implicit_Context_Context
+Warning: Parameter "sparkPropertiesTempDir" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_Server" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_Server" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_Port" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_Port" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_Login" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_Login" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_Password" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_Password" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_AdditionalJDBCParameters" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_AdditionalJDBCParameters" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_NameNodePrin" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_NameNodePrin" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_JTOrRMPrin" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_JTOrRMPrin" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_Principal" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_Principal" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_Thrift_Server" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_Thrift_Server" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_Thrift_Port" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_Thrift_Port" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_hiveThriftAdditionalJDBCParameters" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_hiveThriftAdditionalJDBCParameters" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_JDBC_Beeline_Url" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_JDBC_Beeline_Url" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_Database" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_Database" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_KeyTabPrincipal" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_KeyTabPrincipal" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Hive_KeyTab" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Hive_KeyTab" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERAControlFrameWorkSQLDBPassword" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERAControlFrameWorkSQLDBPassword" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERASQLPassword" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERASQLPassword" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERASQLCRMPassword" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERASQLCRMPassword" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERAOraclePassword" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERAOraclePassword" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERAAzureLandingAccountKey" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERAAzureLandingAccountKey" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERASQLCTPassword" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERASQLCTPassword" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERAControlFrameWorkABCRPassword" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERAControlFrameWorkABCRPassword" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERA_SQL_UAM_Password" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERA_SQL_UAM_Password" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERASAPPassword" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERASAPPassword" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERA_SQL_ECLIPSE_Password" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERA_SQL_ECLIPSE_Password" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_TERA_CRM_AUDIT_Password" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_TERA_CRM_AUDIT_Password" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_crm_msdux2_usr_secret" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_crm_msdux2_usr_secret" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_anaplan_dev_secret_storageaccount" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_anaplan_dev_secret_storageaccount" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_anaplan_dev_secret_passkey" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_anaplan_dev_secret_passkey" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_Proxy_Host" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_Proxy_Host" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_Proxy_Port" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_Proxy_Port" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_Application_id" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_Application_id" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kv_certs_file" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kv_certs_file" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "ControlFrameWork_ABCR_SQLDB_Server" is a new parameter of Implicit_Context_Context
+Warning: Parameter "ControlFrameWork_ABCR_SQLDB_Server" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "ControlFrameWork_ABCR_SQLDB_Username" is a new parameter of Implicit_Context_Context
+Warning: Parameter "ControlFrameWork_ABCR_SQLDB_Username" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "ControlFrameWork_ABCR_SQLDB_DB" is a new parameter of Implicit_Context_Context
+Warning: Parameter "ControlFrameWork_ABCR_SQLDB_DB" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "ControlFrameWork_ABCR_SQLDB_Port" is a new parameter of Implicit_Context_Context
+Warning: Parameter "ControlFrameWork_ABCR_SQLDB_Port" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "ControlFrameWork_ABCR_SQLDB_Schema" is a new parameter of Implicit_Context_Context
+Warning: Parameter "ControlFrameWork_ABCR_SQLDB_Schema" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "ControlFrameWork_ABCR_SQLDB_Additional_Params" is a new parameter of Implicit_Context_Context
+Warning: Parameter "ControlFrameWork_ABCR_SQLDB_Additional_Params" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "KeyVaultUrl" is a new parameter of Implicit_Context_Context
+Warning: Parameter "KeyVaultUrl" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "controlFrameWorkSQLDBPasswordKey" is a new parameter of Implicit_Context_Context
+Warning: Parameter "controlFrameWorkSQLDBPasswordKey" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "controlFrameWorkSQLDBPassword_Key" is a new parameter of Implicit_Context_Context
+Warning: Parameter "controlFrameWorkSQLDBPassword_Key" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "controlTblSchema" is a new parameter of Implicit_Context_Context
+Warning: Parameter "controlTblSchema" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "TERA_Azure_Landing_AccountName" is a new parameter of Implicit_Context_Context
+Warning: Parameter "TERA_Azure_Landing_AccountName" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "azureLandingAccountName" is a new parameter of Implicit_Context_Context
+Warning: Parameter "azureLandingAccountName" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "azureLandingAccountKey" is a new parameter of Implicit_Context_Context
+Warning: Parameter "azureLandingAccountKey" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "azureContainer" is a new parameter of Implicit_Context_Context
+Warning: Parameter "azureContainer" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Tera_Hive_SparkPort" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Tera_Hive_SparkPort" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Tera_Hive_SparkPrincipal" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Tera_Hive_SparkPrincipal" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Tera_Hive_SparkResourceManager" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Tera_Hive_SparkResourceManager" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Tera_Spark_WebUIPort" is a new parameter of Implicit_Context_Context
+Warning: Parameter "Tera_Spark_WebUIPort" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kvSQLCRMPassword" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kvSQLCRMPassword" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kvProxyPort" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kvProxyPort" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kvProxyHost" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kvProxyHost" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kvApplicationId" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kvApplicationId" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "kvCertsFile" is a new parameter of Implicit_Context_Context
+Warning: Parameter "kvCertsFile" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "TERA_ControlFrameWork_SQLDB_Username" is a new parameter of Implicit_Context_Context
+Warning: Parameter "TERA_ControlFrameWork_SQLDB_Username" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "TERA_ControlFrameWork_SQLDB_Server" is a new parameter of Implicit_Context_Context
+Warning: Parameter "TERA_ControlFrameWork_SQLDB_Server" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "TERA_ControlFrameWork_SQLDB_DB" is a new parameter of Implicit_Context_Context
+Warning: Parameter "TERA_ControlFrameWork_SQLDB_DB" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "TERA_ControlFrameWork_SQLDB_Port" is a new parameter of Implicit_Context_Context
+Warning: Parameter "TERA_ControlFrameWork_SQLDB_Port" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "TERA_ControlFrameWork_SQLDB_Schema" is a new parameter of Implicit_Context_Context
+Warning: Parameter "TERA_ControlFrameWork_SQLDB_Schema" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "TERA_ControlFrameWork_SQLDB_Additional_Params" is a new parameter of Implicit_Context_Context
+Warning: Parameter "TERA_ControlFrameWork_SQLDB_Additional_Params" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "keyVaultUrl" is a new parameter of Implicit_Context_Context
+Warning: Parameter "keyVaultUrl" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_namenode_rpc_address_env_nn1" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_namenode_rpc_address_env_nn1" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_namenode_rpc_address_env_nn2" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_namenode_rpc_address_env_nn2" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_client_failover_proxy_provider_env" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_client_failover_proxy_provider_env" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_ha_namenodes_env" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_ha_namenodes_env" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_namenode_rpc_address_env_nn1_val" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_namenode_rpc_address_env_nn1_val" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_namenode_rpc_address_env_nn2_val" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_namenode_rpc_address_env_nn2_val" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_client_failover_proxy_provider_env_val" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_client_failover_proxy_provider_env_val" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "HDP_Ref_dfs_ha_namenodes_env_val" is a new parameter of Implicit_Context_Context
+Warning: Parameter "HDP_Ref_dfs_ha_namenodes_env_val" is a new parameter of Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "noofIterations" has not been set by Implicit_Context_Context
+Warning: Parameter "noofIterations" has not been set by Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "contextCtrlTblNmADLSGen2" has not been set by Implicit_Context_Context
+Warning: Parameter "contextCtrlTblNmADLSGen2" has not been set by Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "dataSubjectGroupName" has not been set by Implicit_Context_Context
+Warning: Parameter "dataSubjectGroupName" has not been set by Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Talend_log_file" has not been set by Implicit_Context_Context
+Warning: Parameter "Talend_log_file" has not been set by Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "groupId" has not been set by Implicit_Context_Context
+Warning: Parameter "groupId" has not been set by Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "contextfile" has not been set by Implicit_Context_Context
+Warning: Parameter "contextfile" has not been set by Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "SBOWName" has not been set by Implicit_Context_Context
+Warning: Parameter "SBOWName" has not been set by Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "BOWName" has not been set by Implicit_Context_Context
+Warning: Parameter "BOWName" has not been set by Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Talend_log_Folder" has not been set by Implicit_Context_Context
+Warning: Parameter "Talend_log_Folder" has not been set by Implicit_Context_Context
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin- Implicit_Context_Context: Parameter "Talend_log_File_Extn" has not been set by Implicit_Context_Context
+Warning: Parameter "Talend_log_File_Extn" has not been set by Implicit_Context_Context
+[INFO]: Azure Landing Batch Job Started.
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter sbowId_distillation: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter DeleteCount: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter loadJobNumber: Incorrect input "" for BigDecimal.
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter partitioningTime: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter sourceTableCount: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter sparkCores: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter sparkExecutors: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter targetTableCount: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowCdcEndTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowCdcStartTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowIdDist: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowPvsCdcEndTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowPvsCdcStartTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter Batchnum: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter bowId: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter code: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter Execution_Server_ID: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter gbowId: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter sbowId: For input string: ""
+[WARN ] 05:17:25 tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowId: For input string: ""
+May 31, 2022 5:17:25 AM ai.engineering.azure.util.AzureKeyVaultFactory getAzureKeyVault
+INFO: Calling factory without proxy settings
+May 31, 2022 5:17:25 AM ai.engineering.azure.util.AzureKeyVault readPfx
+INFO: the alias is: te-26559859-0504-492c-bfd9-d35ff0177386
+May 31, 2022 5:17:25 AM ai.engineering.azure.util.AzureKeyVault readPfx
+INFO: key in primary encoding format is: [B@b3ca52e
+May 31, 2022 5:17:26 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: Getting Secret
+May 31, 2022 5:17:26 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: vaultUrl: https://ebdev-sls-key.vault.azure.net/
+May 31, 2022 5:17:26 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: secretToRetrieve: crm-dev-secret
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hadoop/talend/731/jobserver/agent/TalendJobServersFiles/cache/lib/1319794946_1216089929/util-1.0.1-SNAPSHOT-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop/talend/731/jobserver/agent/TalendJobServersFiles/cache/lib/3489259475_2124744847/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[pool-2-thread-1] INFO com.microsoft.aad.adal4j.AuthenticationAuthority - [Correlation ID: d1b9d056-2fad-4078-98a6-a72436b415ab] Instance discovery was successful
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: Getting Secret
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVaultFactory getAzureKeyVault
+INFO: Calling factory without proxy settings
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault readPfx
+INFO: the alias is: te-26559859-0504-492c-bfd9-d35ff0177386
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault readPfx
+INFO: key in primary encoding format is: [B@260e86a1
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: Getting Secret
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: vaultUrl: https://ebdev-sls-key.vault.azure.net/
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: secretToRetrieve: ebi-adb-infrastructure-Execute-key
+[pool-3-thread-1] INFO com.microsoft.aad.adal4j.AuthenticationAuthority - [Correlation ID: 1d1bdb4c-7933-4d2b-b09a-ac833a970f6b] Instance discovery was successful
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: Getting Secret
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVaultFactory getAzureKeyVault
+INFO: Calling factory without proxy settings
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault readPfx
+INFO: the alias is: te-26559859-0504-492c-bfd9-d35ff0177386
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault readPfx
+INFO: key in primary encoding format is: [B@2f4205be
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: Getting Secret
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: vaultUrl: https://ebdev-sls-key.vault.azure.net/
+May 31, 2022 5:17:27 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: secretToRetrieve: ebdev-ebi-dataestateadlsstorage-sas-key
+[pool-4-thread-1] INFO com.microsoft.aad.adal4j.AuthenticationAuthority - [Correlation ID: 9f81c844-0c86-46da-a85b-a5056388dd70] Instance discovery was successful
+May 31, 2022 5:17:28 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: Getting Secret
+May 31, 2022 5:17:28 AM ai.engineering.azure.util.AzureKeyVaultFactory getAzureKeyVault
+INFO: Calling factory without proxy settings
+May 31, 2022 5:17:28 AM ai.engineering.azure.util.AzureKeyVault readPfx
+INFO: the alias is: te-26559859-0504-492c-bfd9-d35ff0177386
+May 31, 2022 5:17:28 AM ai.engineering.azure.util.AzureKeyVault readPfx
+INFO: key in primary encoding format is: [B@784b990c
+May 31, 2022 5:17:28 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: Getting Secret
+May 31, 2022 5:17:28 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: vaultUrl: https://ebdev-sls-key.vault.azure.net/
+May 31, 2022 5:17:28 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: secretToRetrieve: 
+[pool-5-thread-1] INFO com.microsoft.aad.adal4j.AuthenticationAuthority - [Correlation ID: 09c31ffb-4151-4e12-a396-51f21df30e04] Instance discovery was successful
+May 31, 2022 5:17:28 AM ai.engineering.azure.util.AzureKeyVault getSecret
+SEVERE: getSecret
+java.lang.RuntimeException: com.fasterxml.jackson.databind.JsonMappingException: Can not deserialize instance of java.lang.String out of START_ARRAY token
+ at [Source: {"value":[{"contentType":"application/x-pkcs12","id":"https://ebdev-sls-key.vault.azure.net/secrets/aaaaaaa","attributes":{"enabled":true,"created":1642738864,"updated":1642738864,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/abcd","attributes":{"enabled":true,"created":1635175291,"updated":1635175291,"recoveryLevel":"Recoverable"},"tags":{}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/adfsastoken","attributes":{"enabled":true,"created":1601917491,"updated":1601917491,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/ADLS2-OC","attributes":{"enabled":true,"created":1607087489,"updated":1607087489,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/anaplan-dev-secret-passkey","attributes":{"enabled":true,"created":1550674124,"updated":1550674124,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/anaplan-dev-secret-storageaccount","attributes":{"enabled":true,"created":1554970584,"updated":1554970584,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/armor-dev-secret","attributes":{"enabled":true,"created":1585926850,"updated":1585926850,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/armor-pro-secret","attributes":{"enabled":true,"created":1647406220,"updated":1647406220,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/bmchelix-dev-secret","attributes":{"enabled":true,"created":1614693170,"updated":1614693170,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/bmt-dev-secret","attributes":{"enabled":true,"created":1614343578,"updated":1614343578,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/bmt-ui-secret-passkey","attributes":{"enabled":true,"created":1601971999,"updated":1601971999,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/c4-dev-secret","attributes":{"enabled":true,"created":1596717541,"updated":1596717541,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/cams-dev-secret","attributes":{"enabled":true,"created":1606720906,"updated":1606720906,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/card-dev-secret","attributes":{"enabled":true,"created":1643369990,"updated":1643369990,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/coreib-dev-secrect","attributes":{"enabled":true,"created":1590055246,"updated":1590055246,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/coreib-dev-secret","attributes":{"enabled":true,"created":1589283400,"updated":1589283400,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/crest-dev-secret","attributes":{"enabled":true,"created":1596729646,"updated":1596729646,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/crm-dev-msdux2-usr-secret","attributes":{"enabled":true,"created":1550673919,"updated":1550673919,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/crm-dev-secret","attributes":{"enabled":true,"created":1551267873,"updated":1551267873,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/crm-dev-secret-Audit","attributes":{"enabled":true,"created":1551368417,"updated":1551368417,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/crm-dev-secret-CTtable","attributes":{"enabled":true,"created":1551269076,"updated":1551269076,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/csdw-adb-consumption-Execute-key","attributes":{"enabled":true,"created":1633517854,"updated":1633517854,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/csdw-adb-consumption-Read-key","attributes":{"enabled":true,"created":1633502188,"updated":1633502188,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/csdw-adb-consumption-Write-key","attributes":{"enabled":true,"created":1633502180,"updated":1633502180,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/csnelf-dev-secret","attributes":{"enabled":true,"created":1585926820,"updated":1585926820,"recoveryLevel":"Recoverable"}}],"nextLink":"https://ebdev-sls-key.vault.azure.net:443/secrets?api-version=2016-10-01&$skiptoken=eyJOZXh0TWFya2VyIjoiMiE4OCFNREF3TURJeElYTmxZM0psZEM5RFUxQXRSRVZXTFZORlExSkZWQ0V3TURBd01qZ2hPVGs1T1MweE1pMHpNVlF5TXpvMU9UbzFPUzQ1T1RrNU9UazVXaUUtIiwiVGFyZ2V0TG9jYXRpb24iOjB9"}; line: 1, column: 10] (through reference chain: com.microsoft.azure.keyvault.models.SecretBundle["value"])
+	at rx.exceptions.Exceptions.propagate(Exceptions.java:58)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:464)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:341)
+	at com.microsoft.azure.keyvault.KeyVaultClientImpl.getSecret(KeyVaultClientImpl.java:2868)
+	at com.microsoft.azure.keyvault.KeyVaultClient.getSecret(KeyVaultClient.java:862)
+	at ai.engineering.azure.util.AzureKeyVault.getSecret(AzureKeyVault.java:150)
+	at tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.jlet_Global_000_secretContextDist_1_tJava_1Process(Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.java:4178)
+	at tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.jlet_Global_000_secretContextDist_1_tSetProxy_1Process(Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.java:4057)
+	at tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.jlet_Global_000_secretContextDist_1_tLibraryLoad_2Process(Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.java:3842)
+	at tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.tPrejob_1Process(Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.java:3600)
+	at tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.runJobInTOS(Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.java:19254)
+	at tera_distillation_to_adlsgen2_731.job_dis_con_001_azurelandingbowtemplatev2_1_contra_fin_0_1.Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.runJob(Job_dis_con_001_AzureLandingBOWTemplateV2_1_Contra_Fin.java:16803)
+	at tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin.tRunJob_1Process(Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin.java:1612)
+	at tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin.runJobInTOS(Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin.java:3221)
+	at tera_distillation_to_adlsgen2_731.job_dis_con_000_azurelandingpartv2_1_contra_fin_0_1.Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin.main(Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin.java:2873)
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: Can not deserialize instance of java.lang.String out of START_ARRAY token
+ at [Source: {"value":[{"contentType":"application/x-pkcs12","id":"https://ebdev-sls-key.vault.azure.net/secrets/aaaaaaa","attributes":{"enabled":true,"created":1642738864,"updated":1642738864,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/abcd","attributes":{"enabled":true,"created":1635175291,"updated":1635175291,"recoveryLevel":"Recoverable"},"tags":{}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/adfsastoken","attributes":{"enabled":true,"created":1601917491,"updated":1601917491,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/ADLS2-OC","attributes":{"enabled":true,"created":1607087489,"updated":1607087489,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/anaplan-dev-secret-passkey","attributes":{"enabled":true,"created":1550674124,"updated":1550674124,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/anaplan-dev-secret-storageaccount","attributes":{"enabled":true,"created":1554970584,"updated":1554970584,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/armor-dev-secret","attributes":{"enabled":true,"created":1585926850,"updated":1585926850,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/armor-pro-secret","attributes":{"enabled":true,"created":1647406220,"updated":1647406220,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/bmchelix-dev-secret","attributes":{"enabled":true,"created":1614693170,"updated":1614693170,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/bmt-dev-secret","attributes":{"enabled":true,"created":1614343578,"updated":1614343578,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/bmt-ui-secret-passkey","attributes":{"enabled":true,"created":1601971999,"updated":1601971999,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/c4-dev-secret","attributes":{"enabled":true,"created":1596717541,"updated":1596717541,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/cams-dev-secret","attributes":{"enabled":true,"created":1606720906,"updated":1606720906,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/card-dev-secret","attributes":{"enabled":true,"created":1643369990,"updated":1643369990,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/coreib-dev-secrect","attributes":{"enabled":true,"created":1590055246,"updated":1590055246,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/coreib-dev-secret","attributes":{"enabled":true,"created":1589283400,"updated":1589283400,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/crest-dev-secret","attributes":{"enabled":true,"created":1596729646,"updated":1596729646,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/crm-dev-msdux2-usr-secret","attributes":{"enabled":true,"created":1550673919,"updated":1550673919,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/crm-dev-secret","attributes":{"enabled":true,"created":1551267873,"updated":1551267873,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/crm-dev-secret-Audit","attributes":{"enabled":true,"created":1551368417,"updated":1551368417,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/crm-dev-secret-CTtable","attributes":{"enabled":true,"created":1551269076,"updated":1551269076,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/csdw-adb-consumption-Execute-key","attributes":{"enabled":true,"created":1633517854,"updated":1633517854,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/csdw-adb-consumption-Read-key","attributes":{"enabled":true,"created":1633502188,"updated":1633502188,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/csdw-adb-consumption-Write-key","attributes":{"enabled":true,"created":1633502180,"updated":1633502180,"recoveryLevel":"Recoverable"}},{"id":"https://ebdev-sls-key.vault.azure.net/secrets/csnelf-dev-secret","attributes":{"enabled":true,"created":1585926820,"updated":1585926820,"recoveryLevel":"Recoverable"}}],"nextLink":"https://ebdev-sls-key.vault.azure.net:443/secrets?api-version=2016-10-01&$skiptoken=eyJOZXh0TWFya2VyIjoiMiE4OCFNREF3TURJeElYTmxZM0psZEM5RFUxQXRSRVZXTFZORlExSkZWQ0V3TURBd01qZ2hPVGs1T1MweE1pMHpNVlF5TXpvMU9UbzFPUzQ1T1RrNU9UazVXaUUtIiwiVGFyZ2V0TG9jYXRpb24iOjB9"}; line: 1, column: 10] (through reference chain: com.microsoft.azure.keyvault.models.SecretBundle["value"])
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:270)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportMappingException(DeserializationContext.java:1247)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1122)
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer._deserializeFromArray(StringDeserializer.java:91)
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:41)
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:11)
+	at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:504)
+	at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:111)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:276)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:140)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3814)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2896)
+	at com.microsoft.rest.serializer.JacksonAdapter.deserialize(JacksonAdapter.java:131)
+	at com.microsoft.rest.ServiceResponseBuilder.buildBody(ServiceResponseBuilder.java:203)
+	at com.microsoft.rest.ServiceResponseBuilder.build(ServiceResponseBuilder.java:108)
+	at com.microsoft.azure.AzureResponseBuilder.build(AzureResponseBuilder.java:56)
+	at com.microsoft.azure.keyvault.KeyVaultClientImpl.getSecretDelegate(KeyVaultClientImpl.java:2941)
+	at com.microsoft.azure.keyvault.KeyVaultClientImpl.access$1800(KeyVaultClientImpl.java:92)
+	at com.microsoft.azure.keyvault.KeyVaultClientImpl$82.call(KeyVaultClientImpl.java:2928)
+	at com.microsoft.azure.keyvault.KeyVaultClientImpl$82.call(KeyVaultClientImpl.java:2924)
+	at rx.internal.operators.OnSubscribeMap$MapSubscriber.onNext(OnSubscribeMap.java:69)
+	at retrofit2.adapter.rxjava.RxJavaCallAdapterFactory$RequestArbiter.request(RxJavaCallAdapterFactory.java:173)
+	at rx.Subscriber.setProducer(Subscriber.java:211)
+	at rx.internal.operators.OnSubscribeMap$MapSubscriber.setProducer(OnSubscribeMap.java:102)
+	at retrofit2.adapter.rxjava.RxJavaCallAdapterFactory$CallOnSubscribe.call(RxJavaCallAdapterFactory.java:152)
+	at retrofit2.adapter.rxjava.RxJavaCallAdapterFactory$CallOnSubscribe.call(RxJavaCallAdapterFactory.java:138)
+	at rx.Observable.unsafeSubscribe(Observable.java:10142)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10238)
+	at rx.Observable.subscribe(Observable.java:10205)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:444)
+	... 13 more
+
+May 31, 2022 5:17:28 AM ai.engineering.azure.util.AzureKeyVault getSecret
+INFO: Getting Secret
+No. of Iterations : 3
+BOWName : EDL1
+SBOWName : EDL1
+############# Start Of BOW - EDL1 #############
+BOW ID: 6661
+BOW Name : EDL1
+BOW Run Start Timestamp : 2022-05-31 05:17:29.249
+BOW PID : 15208@g8t00841s.inc.hpicorp.net
+SELECT  isnull(Batch_Control_ID,batch_execution_id) as Batch_Control_ID FROM  CNTRL.Batch_Execution  WITH(NOLOCK) WHERE BOW_unique_ID= '6661' and Batch_Execution_Start_Date= (SELECT MAX(Batch_Execution_Start_Date) FROM  CNTRL.Batch_Execution WITH(NOLOCK) WHERE  BOW_unique_ID= '6661' and pper(DataSubject_Group_Name)='NULL');
+BOW ID : 6661
+Distillation SBOW ID : 66611
+Distillation SBOW Name : EDL1
+############# Batch Execution Details #############
+Batch Exec ID : 525547f6-561e-494a-898c-c67189f639da
+############# Fetch SBOW details query #############
+SELECT SBOW_ID,SBOW_NAME,ACTIVE_FLAG FROM  CNTRL.SBOW_CONTROL WITH(NOLOCK) WHERE BOW_ID=6661 AND SBOW_NAME='EDL1' AND ACTIVE_FLAG='Y'
+Batch Exec query is : SELECT isnull(Batch_Control_ID,batch_execution_id) as Batch_Execution_ID FROM  CNTRL.Batch_Execution WITH(NOLOCK) WHERE BOW_unique_ID= '6661' and Batch_Execution_Start_Date=(SELECT MAX(Batch_Execution_Start_Date) FROM  CNTRL.Batch_Execution WITH (NOLOCK) WHERE  BOW_unique_ID= '6661')
+BOW ID : 6661
+SBOW ID : 66611
+SBOW Name : EDL1
+Batch_Execution_id : 525547f6-561e-494a-898c-c67189f639da
+BatchExecStatus for SBOW_ID : R
+datasubjectgroupname :
+SELECT DISTINCT UOW.UOW_ID ,UOW.UOW_NAME FROM CNTRL.UOW_CONTROL UOW INNER JOIN CNTRL.GBOW_UOW_CONTROL GC ON UOW.SBOW_ID=GC.SBOW_ID AND UOW.UOW_ID=GC.UOW_ID AND GBOW_ID=666  WHERE UOW.BOW_ID=6661 AND UOW.SBOW_ID=66611 AND UOW.Active_Flag='Y'  ORDER BY UOW.UOW_ID;
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter DeleteCount: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter loadJobNumber: Incorrect input "" for BigDecimal.
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter partitioningTime: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter sourceTableCount: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter sparkCores: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter sparkExecutors: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter targetTableCount: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowCdcEndTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowCdcStartTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowIdDist: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowPvsCdcEndTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter uowPvsCdcStartTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter Batchnum: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter code: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter Execution_Server_ID: For input string: ""
+[WARN ] 05:17:29 tera_distillation_to_adlsgen2_731.job_dis_con_002_azurelandingsbowtemplatev2_1_contra_fin_0_1.Job_dis_con_002_AzureLandingSBOWTemplateV2_1_Contra_Fin- Null value will be used for context parameter gbowId: For input string: ""
+<searchlog>uowCdcStartTimestamp  :null<searchlog/>
+<searchlog>tableNameSuffix  :<searchlog/>
+<searchlog>Context_FileName  :<searchlog/>
+<searchlog>uowCdcStartTimestampStr  :<searchlog/>
+<searchlog>project  :<searchlog/>
+<searchlog>job  :<searchlog/>
+<searchlog>uowRunEndTimestamp  :<searchlog/>
+<searchlog>partitioningTime  :null<searchlog/>
+<searchlog>currentYear  :<searchlog/>
+<searchlog>source_Type  :<searchlog/>
+<searchlog>lookupTableName  :<searchlog/>
+<searchlog>partitionColumn  :<searchlog/>
+<searchlog>code  :null<searchlog/>
+<searchlog>Hive_Login  :<searchlog/>
+<searchlog>azureBlobFolder  :<searchlog/>
+<searchlog>Batchnum  :null<searchlog/>
+<searchlog>currentHour  :<searchlog/>
+<searchlog>currentMonth  :<searchlog/>
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter DeleteCount: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter loadJobNumber: Incorrect input "" for BigDecimal.
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter partitioningTime: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter sourceTableCount: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter targetTableCount: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter uowCdcEndTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter uowCdcStartTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter uowIdDist: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter uowPvsCdcEndTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter uowPvsCdcStartTimestamp: Can't parse date string: Unparseable date: "" and long: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter Batchnum: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter code: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter Execution_Server_ID: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter gbowId: For input string: ""
+[WARN ] 05:17:30 tera_distillation_to_adlsgen2_731.job_dis_con_003_azurelandingadlsgen2templatev2_1_contra_fin_0_1.Job_dis_con_003_AzureLandingADLSGEn2TemplateV2_1_Contra_Fin- Null value will be used for context parameter BATCH_NUMBER: For input string: ""
+[WARN ] 05:17:30 org.apache.hadoop.util.NativeCodeLoader- Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[Thread-3] INFO org.apache.hadoop.security.UserGroupInformation - Login successful for user eb_onswd using keytab file /etc/security/app-sa-keytabs/eb_onswd_dev.keytab
+[Thread-3] INFO org.apache.hadoop.security.UserGroupInformation - Login successful for user eb_onswd using keytab file /etc/security/app-sa-keytabs/eb_onswd_dev.keytab
+[Thread-3] INFO org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-8--1, built on 04/01/2017 21:09 GMT
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:host.name=g8t00841s.inc.hpicorp.net
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_231
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/java/jre1.8.0_231-amd64
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=classpath.jar
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:os.version=3.10.0-1160.59.1.el7.x86_64
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:user.name=talend
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/talend
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/opt/hadoop/talend/731/jobserver/agent/TalendJobServersFiles/repository/TERA_DISTILLATION_TO_ADLSGEN2_731_Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin_20220531_104707_tqq3p/Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=g8t00839s.inc.hpicorp.net:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@68293891
+[Thread-3-SendThread(g8t00839s.inc.hpicorp.net:2181)] INFO org.apache.zookeeper.ClientCnxn - Opening socket connection to server g8t00839s.inc.hpicorp.net/15.60.8.117:2181. Will not attempt to authenticate using SASL (unknown error)
+[Thread-3-SendThread(g8t00839s.inc.hpicorp.net:2181)] INFO org.apache.zookeeper.ClientCnxn - Socket connection established to g8t00839s.inc.hpicorp.net/15.60.8.117:2181, initiating session
+[Thread-3-SendThread(g8t00839s.inc.hpicorp.net:2181)] INFO org.apache.zookeeper.ClientCnxn - Session establishment complete on server g8t00839s.inc.hpicorp.net/15.60.8.117:2181, sessionid = 0x180604c53d43380, negotiated timeout = 60000
+[Thread-3-EventThread] INFO org.apache.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+[Thread-3] INFO org.apache.zookeeper.ZooKeeper - Session: 0x180604c53d43380 closed
+[Thread-3-EventThread] INFO org.apache.zookeeper.ClientCnxn - EventThread shut down
+******AzureFolder  : /masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/
+before values
+context.bowId-->6661
+context.sbowId-->66611
+context.uowId--->666111
+context.LoadJobNumberStr--->-99999999999999
+context.uowRunStartTimestamp--->2022-05-31 05:17:33.234
+context.uowRunEndTimestamp--->1900-01-01 00:00:00.000
+context.uowStatus--->R
+context.batch_id--->525547f6-561e-494a-898c-c67189f639da
+context.sourceTableCount--->0
+context.targetTableCount--->0
+context.Batchnum--->null
+context.jobName--->Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin
+context.DeleteCount--->null
+[INFO]: Starting EDL Extract Script...
+extract script invoked 
+extract script arguments checking is started
+sbow_id is 66611
+extract script arguments checking is completed
+Script Location: /executables/datadistillation/scripts/
+Log Location: /opt/apps/tera/TalendLog/
+HDFS Location: /certified/domain/finance/azureBlobExtract/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/
+File Type: PARQUET
+SQL Query:  select Source_System_Identifier,Logical_Deletion_Indicator,Source_System_Update_Timestamp,Insert_GMT_Timestamp,Load_Job_Number,Source_System_Extract_GMT_Timestamp,Product_Multigrain_Code,Product_Multigrain_Name,Product_Level_Code,Hp_Company_Code,Hp_Company_Name,Hp_Company_Description,Business_Group_Id,Business_Group_Name,Business_Group_Description,External_Segment_Code,External_Segment_Name,External_Segment_Description,Subgroup_Id,Subgroup_Name,Subgroup_Description,Global_Business_Unit_Id,Global_Business_Unit_Name,Global_Business_Unit_Description,Product_Category_Code,Product_Category_Name,Product_Category_Description,Business_Area_Code,Business_Area_Name,Business_Area_Description,Business_Area_Concatenated_Name,Profit_Center_Code,Profit_Center_Hierarchy_Internal_Unique_Identifier,Profit_Center_Hierarchy_Level_4_Code,Profit_Center_Hierarchy_Level_0_Code,Profit_Center_Hierarchy_Level_1_Code,Profit_Center_Hierarchy_Level_2_Code,Profit_Center_Hierarchy_Level_3_Code,Profit_Center_Hierarchy_Level_5_Code,Profit_Center_Hierarchy_Level_6_Code,Controlling_Area_Code,Calculated_Column_Node_Name,Profit_Center_Hierarchy_Level_0_Description,Profit_Center_Hierarchy_Level_1_Description,Profit_Center_Hierarchy_Level_2_Description,Profit_Center_Hierarchy_Level_3_Description,Profit_Center_Hierarchy_Level_4_Description,Profit_Center_Hierarchy_Level_5_Description,Profit_Center_Hierarchy_Level_6_Description,Profit_Center_Hierarchy_Leaf_Code,Controlling_Area_Leaf_Code,Product_Line_Id,Product_Line_Name,Product_Line_Description,Product_Id,Product_Description,Product_Option_Code,Model_Id,Model_Name,Model_Description,SubFamily_Id,SubFamily_Name,SubFamily_Description,Base_Product_Family_Id,PhWeb_Product_Family_Name,PhWeb_Product_Family_Description,PhWeb_Line_Id,PhWeb_Line_Name,PhWeb_Line_Description,PhWeb_Type_Id,PhWeb_Type_Name,PhWeb_Type_Description,Base_Product_Id,Base_Product_Name,Base_Product_Description,Platform_Subset_Id,Platform_Subset_Name,Platform_Subset_Description,Imaging_and_Printing_Group_Product_Family_Id,Imaging_and_Printing_Group_Product_Family_Name,Imaging_and_Printing_Group_Product_Family_Description,Product_Platform_Id,Product_Platform_Name,Product_Platform_Description,Pricing_Product_Model_Id,Pricing_Product_Model_Name,Pricing_Product_Series_Id,Pricing_Product_Series_Name,Pricing_Product_Family_Id,Pricing_Product_Family_Name,Pricing_Product_Class_Id,Pricing_Product_Class_Name,product_type_id,phweb_processor_variant_name FROM COMMON_DIMENSIONS_MASTERDATA.DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN LIMIT 100
+spark submit command invoked
+spark-submit --master yarn --deploy-mode client --executor-memory 10g --num-executors 75 --executor-cores 5 --driver-memory 15g --driver-java-options -Dlog4j.configuration=file:///executables/datadistillation/scripts/log4j.properties --conf spark.executor.extraJavaOptions=-Dlog4j.configuration=file:///executables/datadistillation/scripts/log4j.properties --principal eb_onswd --keytab /etc/security/app-sa-keytabs/eb_onswd_dev.keytab --files /usr/hdp/current/spark2-client/conf/hive-site.xml,file:///executables/datadistillation/scripts/log4j.properties /executables/datadistillation/scripts//generate_file_12.py PARQUET  select Source_System_Identifier,Logical_Deletion_Indicator,Source_System_Update_Timestamp,Insert_GMT_Timestamp,Load_Job_Number,Source_System_Extract_GMT_Timestamp,Product_Multigrain_Code,Product_Multigrain_Name,Product_Level_Code,Hp_Company_Code,Hp_Company_Name,Hp_Company_Description,Business_Group_Id,Business_Group_Name,Business_Group_Description,External_Segment_Code,External_Segment_Name,External_Segment_Description,Subgroup_Id,Subgroup_Name,Subgroup_Description,Global_Business_Unit_Id,Global_Business_Unit_Name,Global_Business_Unit_Description,Product_Category_Code,Product_Category_Name,Product_Category_Description,Business_Area_Code,Business_Area_Name,Business_Area_Description,Business_Area_Concatenated_Name,Profit_Center_Code,Profit_Center_Hierarchy_Internal_Unique_Identifier,Profit_Center_Hierarchy_Level_4_Code,Profit_Center_Hierarchy_Level_0_Code,Profit_Center_Hierarchy_Level_1_Code,Profit_Center_Hierarchy_Level_2_Code,Profit_Center_Hierarchy_Level_3_Code,Profit_Center_Hierarchy_Level_5_Code,Profit_Center_Hierarchy_Level_6_Code,Controlling_Area_Code,Calculated_Column_Node_Name,Profit_Center_Hierarchy_Level_0_Description,Profit_Center_Hierarchy_Level_1_Description,Profit_Center_Hierarchy_Level_2_Description,Profit_Center_Hierarchy_Level_3_Description,Profit_Center_Hierarchy_Level_4_Description,Profit_Center_Hierarchy_Level_5_Description,Profit_Center_Hierarchy_Level_6_Description,Profit_Center_Hierarchy_Leaf_Code,Controlling_Area_Leaf_Code,Product_Line_Id,Product_Line_Name,Product_Line_Description,Product_Id,Product_Description,Product_Option_Code,Model_Id,Model_Name,Model_Description,SubFamily_Id,SubFamily_Name,SubFamily_Description,Base_Product_Family_Id,PhWeb_Product_Family_Name,PhWeb_Product_Family_Description,PhWeb_Line_Id,PhWeb_Line_Name,PhWeb_Line_Description,PhWeb_Type_Id,PhWeb_Type_Name,PhWeb_Type_Description,Base_Product_Id,Base_Product_Name,Base_Product_Description,Platform_Subset_Id,Platform_Subset_Name,Platform_Subset_Description,Imaging_and_Printing_Group_Product_Family_Id,Imaging_and_Printing_Group_Product_Family_Name,Imaging_and_Printing_Group_Product_Family_Description,Product_Platform_Id,Product_Platform_Name,Product_Platform_Description,Pricing_Product_Model_Id,Pricing_Product_Model_Name,Pricing_Product_Series_Id,Pricing_Product_Series_Name,Pricing_Product_Family_Id,Pricing_Product_Family_Name,Pricing_Product_Class_Id,Pricing_Product_Class_Name,product_type_id,phweb_processor_variant_name FROM COMMON_DIMENSIONS_MASTERDATA.DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN LIMIT 100 /certified/domain/finance/azureBlobExtract/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/ snappy DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17 part 100 .par /opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/ /certified/domain/finance/azureBlobExtractArchive/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/ eb_onswd@HADOOPDEV.PLANO.HPICORP.NET /etc/security/app-sa-keytabs/eb_onswd_dev.keytab $OtBMBauAW2xMeX /opt/apps/tera/context/Dist_HA_IIB.properties 6661 66611
+SPARK_MAJOR_VERSION is set to 2, using Spark2
+Picked up JAVA_TOOL_OPTIONS: -Dlog4j2.formatMsgNoLookups=true
+Picked up JAVA_TOOL_OPTIONS: -Dlog4j2.formatMsgNoLookups=true
+ascii
+('generate file invokation time:', '31/05/2022 05:17:57')
+('Application ID: ', u'application_1652720867444_5237')
+('Application Name: ', u'Generate BLOB File')
+Python program to generate BLOB files started...
+[INFO]: file_type: PARQUET
+[INFO]: sql_query:  select Source_System_Identifier,Logical_Deletion_Indicator,Source_System_Update_Timestamp,Insert_GMT_Timestamp,Load_Job_Number,Source_System_Extract_GMT_Timestamp,Product_Multigrain_Code,Product_Multigrain_Name,Product_Level_Code,Hp_Company_Code,Hp_Company_Name,Hp_Company_Description,Business_Group_Id,Business_Group_Name,Business_Group_Description,External_Segment_Code,External_Segment_Name,External_Segment_Description,Subgroup_Id,Subgroup_Name,Subgroup_Description,Global_Business_Unit_Id,Global_Business_Unit_Name,Global_Business_Unit_Description,Product_Category_Code,Product_Category_Name,Product_Category_Description,Business_Area_Code,Business_Area_Name,Business_Area_Description,Business_Area_Concatenated_Name,Profit_Center_Code,Profit_Center_Hierarchy_Internal_Unique_Identifier,Profit_Center_Hierarchy_Level_4_Code,Profit_Center_Hierarchy_Level_0_Code,Profit_Center_Hierarchy_Level_1_Code,Profit_Center_Hierarchy_Level_2_Code,Profit_Center_Hierarchy_Level_3_Code,Profit_Center_Hierarchy_Level_5_Code,Profit_Center_Hierarchy_Level_6_Code,Controlling_Area_Code,Calculated_Column_Node_Name,Profit_Center_Hierarchy_Level_0_Description,Profit_Center_Hierarchy_Level_1_Description,Profit_Center_Hierarchy_Level_2_Description,Profit_Center_Hierarchy_Level_3_Description,Profit_Center_Hierarchy_Level_4_Description,Profit_Center_Hierarchy_Level_5_Description,Profit_Center_Hierarchy_Level_6_Description,Profit_Center_Hierarchy_Leaf_Code,Controlling_Area_Leaf_Code,Product_Line_Id,Product_Line_Name,Product_Line_Description,Product_Id,Product_Description,Product_Option_Code,Model_Id,Model_Name,Model_Description,SubFamily_Id,SubFamily_Name,SubFamily_Description,Base_Product_Family_Id,PhWeb_Product_Family_Name,PhWeb_Product_Family_Description,PhWeb_Line_Id,PhWeb_Line_Name,PhWeb_Line_Description,PhWeb_Type_Id,PhWeb_Type_Name,PhWeb_Type_Description,Base_Product_Id,Base_Product_Name,Base_Product_Description,Platform_Subset_Id,Platform_Subset_Name,Platform_Subset_Description,Imaging_and_Printing_Group_Product_Family_Id,Imaging_and_Printing_Group_Product_Family_Name,Imaging_and_Printing_Group_Product_Family_Description,Product_Platform_Id,Product_Platform_Name,Product_Platform_Description,Pricing_Product_Model_Id,Pricing_Product_Model_Name,Pricing_Product_Series_Id,Pricing_Product_Series_Name,Pricing_Product_Family_Id,Pricing_Product_Family_Name,Pricing_Product_Class_Id,Pricing_Product_Class_Name,product_type_id,phweb_processor_variant_name FROM COMMON_DIMENSIONS_MASTERDATA.DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN LIMIT 100
+[INFO]: hdfs_dir: /certified/domain/finance/azureBlobExtract/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/
+[INFO]: local_dir: /opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/
+[INFO]: file_compression: snappy
+[INFO]: file_mask: part
+[INFO]: file_extension: .par
+[INFO]: blob_file_mask: DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17
+[INFO]: file_type: PARQUET
+[INFO]: namenodepri: eb_onswd@HADOOPDEV.PLANO.HPICORP.NET
+[INFO]: keytab: /etc/security/app-sa-keytabs/eb_onswd_dev.keytab
+[INFO]: archive_dir: /certified/domain/finance/azureBlobExtractArchive/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/
+[INFO]: context_file: /opt/apps/tera/context/Dist_HA_IIB.properties
+[INFO]: bow_id_argument: 6661
+[INFO]: sbow_id_argument: 66611
+query_to_fetch_batch_id: SELECT isnull(Batch_Control_ID,batch_execution_id) FROM CNTRL.Batch_Execution  WITH(NOLOCK) WHERE BOW_unique_ID=? and SBOW_Unique_Id = ? and Batch_Execution_Start_Date=(SELECT MAX(Batch_Execution_Start_Date) FROM  CNTRL.Batch_Execution WITH(NOLOCK) WHERE  BOW_unique_ID=? and SBOW_Unique_Id = ? )
+('select_query', 'SELECT isnull(Batch_Control_ID,batch_execution_id) FROM CNTRL.Batch_Execution  WITH(NOLOCK) WHERE BOW_unique_ID=? and SBOW_Unique_Id = ? and Batch_Execution_Start_Date=(SELECT MAX(Batch_Execution_Start_Date) FROM  CNTRL.Batch_Execution WITH(NOLOCK) WHERE  BOW_unique_ID=? and SBOW_Unique_Id = ? )', ('6661', '66611', '6661', '66611'))
+('525547f6-561e-494a-898c-c67189f639da', )
+batch_id exists
+getting class object of  hadoop native commands
+('df_creation_start_time', '31/05/2022 05:18:20')
+('before null fix datatypes', [('Source_System_Identifier', 'smallint'), ('Logical_Deletion_Indicator', 'string'), ('Source_System_Update_Timestamp', 'timestamp'), ('Insert_GMT_Timestamp', 'timestamp'), ('Load_Job_Number', 'bigint'), ('Source_System_Extract_GMT_Timestamp', 'timestamp'), ('Product_Multigrain_Code', 'string'), ('Product_Multigrain_Name', 'string'), ('Product_Level_Code', 'string'), ('Hp_Company_Code', 'string'), ('Hp_Company_Name', 'string'), ('Hp_Company_Description', 'string'), ('Business_Group_Id', 'string'), ('Business_Group_Name', 'string'), ('Business_Group_Description', 'string'), ('External_Segment_Code', 'string'), ('External_Segment_Name', 'string'), ('External_Segment_Description', 'string'), ('Subgroup_Id', 'string'), ('Subgroup_Name', 'string'), ('Subgroup_Description', 'string'), ('Global_Business_Unit_Id', 'string'), ('Global_Business_Unit_Name', 'string'), ('Global_Business_Unit_Description', 'string'), ('Product_Category_Code', 'string'), ('Product_Category_Name', 'string'), ('Product_Category_Description', 'string'), ('Business_Area_Code', 'string'), ('Business_Area_Name', 'string'), ('Business_Area_Description', 'string'), ('Business_Area_Concatenated_Name', 'string'), ('Profit_Center_Code', 'string'), ('Profit_Center_Hierarchy_Internal_Unique_Identifier', 'string'), ('Profit_Center_Hierarchy_Level_4_Code', 'string'), ('Profit_Center_Hierarchy_Level_0_Code', 'string'), ('Profit_Center_Hierarchy_Level_1_Code', 'string'), ('Profit_Center_Hierarchy_Level_2_Code', 'string'), ('Profit_Center_Hierarchy_Level_3_Code', 'string'), ('Profit_Center_Hierarchy_Level_5_Code', 'string'), ('Profit_Center_Hierarchy_Level_6_Code', 'string'), ('Controlling_Area_Code', 'string'), ('Calculated_Column_Node_Name', 'string'), ('Profit_Center_Hierarchy_Level_0_Description', 'string'), ('Profit_Center_Hierarchy_Level_1_Description', 'string'), ('Profit_Center_Hierarchy_Level_2_Description', 'string'), ('Profit_Center_Hierarchy_Level_3_Description', 'string'), ('Profit_Center_Hierarchy_Level_4_Description', 'string'), ('Profit_Center_Hierarchy_Level_5_Description', 'string'), ('Profit_Center_Hierarchy_Level_6_Description', 'string'), ('Profit_Center_Hierarchy_Leaf_Code', 'string'), ('Controlling_Area_Leaf_Code', 'string'), ('Product_Line_Id', 'string'), ('Product_Line_Name', 'string'), ('Product_Line_Description', 'string'), ('Product_Id', 'string'), ('Product_Description', 'string'), ('Product_Option_Code', 'string'), ('Model_Id', 'string'), ('Model_Name', 'string'), ('Model_Description', 'string'), ('SubFamily_Id', 'string'), ('SubFamily_Name', 'string'), ('SubFamily_Description', 'string'), ('Base_Product_Family_Id', 'string'), ('PhWeb_Product_Family_Name', 'string'), ('PhWeb_Product_Family_Description', 'string'), ('PhWeb_Line_Id', 'string'), ('PhWeb_Line_Name', 'string'), ('PhWeb_Line_Description', 'string'), ('PhWeb_Type_Id', 'string'), ('PhWeb_Type_Name', 'string'), ('PhWeb_Type_Description', 'string'), ('Base_Product_Id', 'string'), ('Base_Product_Name', 'string'), ('Base_Product_Description', 'string'), ('Platform_Subset_Id', 'string'), ('Platform_Subset_Name', 'string'), ('Platform_Subset_Description', 'string'), ('Imaging_and_Printing_Group_Product_Family_Id', 'string'), ('Imaging_and_Printing_Group_Product_Family_Name', 'string'), ('Imaging_and_Printing_Group_Product_Family_Description', 'string'), ('Product_Platform_Id', 'string'), ('Product_Platform_Name', 'string'), ('Product_Platform_Description', 'string'), ('Pricing_Product_Model_Id', 'string'), ('Pricing_Product_Model_Name', 'string'), ('Pricing_Product_Series_Id', 'string'), ('Pricing_Product_Series_Name', 'string'), ('Pricing_Product_Family_Id', 'string'), ('Pricing_Product_Family_Name', 'string'), ('Pricing_Product_Class_Id', 'string'), ('Pricing_Product_Class_Name', 'string'), ('product_type_id', 'string'), ('phweb_processor_variant_name', 'string')])
+('df_creation_end_time', '31/05/2022 05:18:24')
+('target_count_check_start_time', '31/05/2022 05:18:24')
+('target_count_check_end_time', '31/05/2022 05:18:31')
+[INFO]: Starting write process...
+('null_check_start_time', '31/05/2022 05:18:31')
+invoking blank_as_null this function
+('after null fix data types', [('Source_System_Identifier', 'smallint'), ('Logical_Deletion_Indicator', 'string'), ('Source_System_Update_Timestamp', 'timestamp'), ('Insert_GMT_Timestamp', 'timestamp'), ('Load_Job_Number', 'bigint'), ('Source_System_Extract_GMT_Timestamp', 'timestamp'), ('Product_Multigrain_Code', 'string'), ('Product_Multigrain_Name', 'string'), ('Product_Level_Code', 'string'), ('Hp_Company_Code', 'string'), ('Hp_Company_Name', 'string'), ('Hp_Company_Description', 'string'), ('Business_Group_Id', 'string'), ('Business_Group_Name', 'string'), ('Business_Group_Description', 'string'), ('External_Segment_Code', 'string'), ('External_Segment_Name', 'string'), ('External_Segment_Description', 'string'), ('Subgroup_Id', 'string'), ('Subgroup_Name', 'string'), ('Subgroup_Description', 'string'), ('Global_Business_Unit_Id', 'string'), ('Global_Business_Unit_Name', 'string'), ('Global_Business_Unit_Description', 'string'), ('Product_Category_Code', 'string'), ('Product_Category_Name', 'string'), ('Product_Category_Description', 'string'), ('Business_Area_Code', 'string'), ('Business_Area_Name', 'string'), ('Business_Area_Description', 'string'), ('Business_Area_Concatenated_Name', 'string'), ('Profit_Center_Code', 'string'), ('Profit_Center_Hierarchy_Internal_Unique_Identifier', 'string'), ('Profit_Center_Hierarchy_Level_4_Code', 'string'), ('Profit_Center_Hierarchy_Level_0_Code', 'string'), ('Profit_Center_Hierarchy_Level_1_Code', 'string'), ('Profit_Center_Hierarchy_Level_2_Code', 'string'), ('Profit_Center_Hierarchy_Level_3_Code', 'string'), ('Profit_Center_Hierarchy_Level_5_Code', 'string'), ('Profit_Center_Hierarchy_Level_6_Code', 'string'), ('Controlling_Area_Code', 'string'), ('Calculated_Column_Node_Name', 'string'), ('Profit_Center_Hierarchy_Level_0_Description', 'string'), ('Profit_Center_Hierarchy_Level_1_Description', 'string'), ('Profit_Center_Hierarchy_Level_2_Description', 'string'), ('Profit_Center_Hierarchy_Level_3_Description', 'string'), ('Profit_Center_Hierarchy_Level_4_Description', 'string'), ('Profit_Center_Hierarchy_Level_5_Description', 'string'), ('Profit_Center_Hierarchy_Level_6_Description', 'string'), ('Profit_Center_Hierarchy_Leaf_Code', 'string'), ('Controlling_Area_Leaf_Code', 'string'), ('Product_Line_Id', 'string'), ('Product_Line_Name', 'string'), ('Product_Line_Description', 'string'), ('Product_Id', 'string'), ('Product_Description', 'string'), ('Product_Option_Code', 'string'), ('Model_Id', 'string'), ('Model_Name', 'string'), ('Model_Description', 'string'), ('SubFamily_Id', 'string'), ('SubFamily_Name', 'string'), ('SubFamily_Description', 'string'), ('Base_Product_Family_Id', 'string'), ('PhWeb_Product_Family_Name', 'string'), ('PhWeb_Product_Family_Description', 'string'), ('PhWeb_Line_Id', 'string'), ('PhWeb_Line_Name', 'string'), ('PhWeb_Line_Description', 'string'), ('PhWeb_Type_Id', 'string'), ('PhWeb_Type_Name', 'string'), ('PhWeb_Type_Description', 'string'), ('Base_Product_Id', 'string'), ('Base_Product_Name', 'string'), ('Base_Product_Description', 'string'), ('Platform_Subset_Id', 'string'), ('Platform_Subset_Name', 'string'), ('Platform_Subset_Description', 'string'), ('Imaging_and_Printing_Group_Product_Family_Id', 'string'), ('Imaging_and_Printing_Group_Product_Family_Name', 'string'), ('Imaging_and_Printing_Group_Product_Family_Description', 'string'), ('Product_Platform_Id', 'string'), ('Product_Platform_Name', 'string'), ('Product_Platform_Description', 'string'), ('Pricing_Product_Model_Id', 'string'), ('Pricing_Product_Model_Name', 'string'), ('Pricing_Product_Series_Id', 'string'), ('Pricing_Product_Series_Name', 'string'), ('Pricing_Product_Family_Id', 'string'), ('Pricing_Product_Family_Name', 'string'), ('Pricing_Product_Class_Id', 'string'), ('Pricing_Product_Class_Name', 'string'), ('product_type_id', 'string'), ('phweb_processor_variant_name', 'string')])
+('null_check_end_time', '31/05/2022 05:18:34')
+('dataframe write process start time  in hdfs', '31/05/2022 05:18:34')
+('dataframe write process end time in hdfs', '31/05/2022 05:18:42')
+[INFO]: Write process completed.
+invoking process_files function
+('printing pbrun command:', 'pbrun su - eb_onswd;export TMOUT=90000;echo $TMOUT;')
+('printing pbrun command:', 'kinit -kt  /etc/security/app-sa-keytabs/eb_onswd_dev.keytab eb_onswd@HADOOPDEV.PLANO.HPICORP.NET;')
+('start time of rename_start_time :', '31/05/2022 05:18:42')
+batch id:525547f6-561e-494a-898c-c67189f639da
+Modified blob file mask: DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17
+('printing the each file', JavaObject id=o776)
+('printing file name', '_SUCCESS')
+('printing the each file', JavaObject id=o778)
+('printing file name', 'part-00000-be1cfc85-05d9-4f95-844c-f7442ab888d4-c000.snappy.parquet')
+[INFO]: Part File : part-00000-be1cfc85-05d9-4f95-844c-f7442ab888d4-c000.snappy.parquet    Blob File: DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17-1.par
+('lfs dir :', '/opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/')
+('end time of rename_end_time:', '31/05/2022 05:18:42')
+Hadoop nagative copy_to_local_file function invoked 
+('source hdfs dir path', '/certified/domain/finance/azureBlobExtract/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/')
+('local_dir path', '/opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/')
+Hadoop nagative copy_to_local_file function invoked completed 
+[INFO]: Source Count = 100 Target Count = 100
+[INFO]: Record count validation is successful.
+('table_name:', 'DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/')
+('printing trigger_file name:', '/opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17.done')
+('trigger file command:', 'touch /opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17.done')
+writting data into trigger file
+execution of process_files function is completed
+execution of process_files this function is completed
+('generate file execution end time:', '31/05/2022 05:18:43')
+[INFO]: Python program to generate BLOB files is done.
+src_location:/opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN
+account_name:ebdevebiadls
+container:landing
+storage_folder:/masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/
+blob_file_name:*.par
+journalfilepath:/opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN20220531051844257666111
+azcopyFolderLocation:/opt/apps/tera/azcopy_linux_amd64_10.3.4
+azcopycommand :/opt/apps/tera/azcopy_linux_amd64_10.3.4/azcopy copy /opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/ https://ebdevebiadls.blob.core.windows.net/landing//masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/?sv=2019-07-07&sig=hDLO7dQst7V1PjUMqcsI4yZId0Tpqk026m09iX0D%2FRk%3D&spr=https&st=2022-04-05T16%3A59%3A34Z&se=2022-06-05T16%3A59%3A34Z&srt=sco&ss=bfqt&sp=racupwdl --include-pattern *.par --recursive=true
+INFO: Scanning...
+
+Job eb51f51e-d31f-cb4c-7425-b65fbe2385a2 has started
+Log file is located at: /opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/itgazcopy/eb51f51e-d31f-cb4c-7425-b65fbe2385a2.log
+
+
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+INFO: azcopy: A newer version 10.14.1 is available to download
+
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+
+
+Job eb51f51e-d31f-cb4c-7425-b65fbe2385a2 summary
+Elapsed Time (Minutes): 0.0333
+Total Number Of Transfers: 1
+Number of Transfers Completed: 1
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 31045
+Final Job Status: Completed
+
+Running azcopy LIST
+INFO: azcopy: A newer version 10.14.1 is available to download
+
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-14-26-1.par; Content Length: 27.21 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-14-26.done; Content Length: 31.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-15-01-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-15-01.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-26-11-10-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-26-11-10.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-29-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-29.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-33-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-33.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-08-19-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-08-19.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-41-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-41.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-59-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-59.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-12-05-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-12-05.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-13-09-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-13-09.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220524142725416666111; Content Length: 65.75 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220524150220123666111; Content Length: 67.22 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220526111126373666111; Content Length: 59.93 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527073053125666111; Content Length: 61.28 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527073512983666111; Content Length: 61.46 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527082036677666111; Content Length: 758.10 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527114239021666111; Content Length: 64.23 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527120108778666111; Content Length: 66.78 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527120643874666111; Content Length: 68.78 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527131046399666111; Content Length: 65.88 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/myRC.txt; Content Length: 255.29 KiB
+src_location:/opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN
+account_name:ebdevebiadls
+container:landing
+storage_folder:/masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/
+blob_file_name:*.done
+journalfilepath:/opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN20220531051847059666111
+azcopyFolderLocation:/opt/apps/tera/azcopy_linux_amd64_10.3.4
+azcopycommand :/opt/apps/tera/azcopy_linux_amd64_10.3.4/azcopy copy /opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/ https://ebdevebiadls.blob.core.windows.net/landing//masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/?sv=2019-07-07&sig=hDLO7dQst7V1PjUMqcsI4yZId0Tpqk026m09iX0D%2FRk%3D&spr=https&st=2022-04-05T16%3A59%3A34Z&se=2022-06-05T16%3A59%3A34Z&srt=sco&ss=bfqt&sp=racupwdl --include-pattern *.done --recursive=true
+INFO: Scanning...
+
+Job 742f6fe0-d672-2b46-676a-96bbad37b921 has started
+Log file is located at: /opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/itgazcopy/742f6fe0-d672-2b46-676a-96bbad37b921.log
+
+
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+INFO: azcopy: A newer version 10.14.1 is available to download
+
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+
+
+Job 742f6fe0-d672-2b46-676a-96bbad37b921 summary
+Elapsed Time (Minutes): 0.0333
+Total Number Of Transfers: 1
+Number of Transfers Completed: 1
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 33
+Final Job Status: Completed
+
+Running azcopy LIST
+INFO: azcopy: A newer version 10.14.1 is available to download
+
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-14-26-1.par; Content Length: 27.21 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-14-26.done; Content Length: 31.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-15-01-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-15-01.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-26-11-10-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-26-11-10.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-29-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-29.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-33-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-33.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-08-19-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-08-19.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-41-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-41.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-59-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-59.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-12-05-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-12-05.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-13-09-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-13-09.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220524142725416666111; Content Length: 65.75 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220524150220123666111; Content Length: 67.22 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220526111126373666111; Content Length: 59.93 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527073053125666111; Content Length: 61.28 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527073512983666111; Content Length: 61.46 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527082036677666111; Content Length: 758.10 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527114239021666111; Content Length: 64.23 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527120108778666111; Content Length: 66.78 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527120643874666111; Content Length: 68.78 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527131046399666111; Content Length: 65.88 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/myRC.txt; Content Length: 255.29 KiB
+before values
+context.bowId-->6661
+context.sbowId-->66611
+context.uowId--->666111
+context.LoadJobNumberStr--->-99999999999999
+context.uowRunStartTimestamp--->2022-05-31 05:17:33.234
+context.uowRunEndTimestamp--->2022-05-31 05:18:50.932
+context.uowStatus--->S
+context.batch_id--->525547f6-561e-494a-898c-c67189f639da
+context.sourceTableCount--->100
+context.targetTableCount--->100
+context.Batchnum--->null
+context.jobName--->Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin
+context.DeleteCount--->null
+src_location:/opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN
+account_name:ebdevebiadls
+container:landing
+storage_folder:/masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/
+blob_file_name:talend.log66620220531051851258666111
+journalfilepath:/opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220531051851258666111
+azcopyFolderLocation:/opt/apps/tera/azcopy_linux_amd64_10.3.4
+azcopycommand :/opt/apps/tera/azcopy_linux_amd64_10.3.4/azcopy copy /opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/ https://ebdevebiadls.blob.core.windows.net/landing//masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/?sv=2019-07-07&sig=hDLO7dQst7V1PjUMqcsI4yZId0Tpqk026m09iX0D%2FRk%3D&spr=https&st=2022-04-05T16%3A59%3A34Z&se=2022-06-05T16%3A59%3A34Z&srt=sco&ss=bfqt&sp=racupwdl --include-pattern talend.log66620220531051851258666111 --recursive=true
+INFO: Scanning...
+
+Job dcc5bfcf-5cb8-1342-622e-5bb774cf8dd7 has started
+Log file is located at: /opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/itgazcopy/dcc5bfcf-5cb8-1342-622e-5bb774cf8dd7.log
+
+
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+INFO: azcopy: A newer version 10.14.1 is available to download
+
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+
+
+Job dcc5bfcf-5cb8-1342-622e-5bb774cf8dd7 summary
+Elapsed Time (Minutes): 0.0334
+Total Number Of Transfers: 1
+Number of Transfers Completed: 1
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 67650
+Final Job Status: Completed
+
+Running azcopy LIST
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-14-26-1.par; Content Length: 27.21 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-14-26.done; Content Length: 31.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-15-01-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-24-15-01.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-26-11-10-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-26-11-10.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-29-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-29.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-33-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-07-33.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-08-19-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-08-19.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-41-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-41.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-59-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-11-59.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-12-05-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-12-05.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-13-09-1.par; Content Length: 29.87 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-27-13-09.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17-1.par; Content Length: 30.32 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN~525547f6-561e-494a-898c-c67189f639da~2022-05-31-05-17.done; Content Length: 33.00 B
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220524142725416666111; Content Length: 65.75 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220524150220123666111; Content Length: 67.22 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220526111126373666111; Content Length: 59.93 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527073053125666111; Content Length: 61.28 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527073512983666111; Content Length: 61.46 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527082036677666111; Content Length: 758.10 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527114239021666111; Content Length: 64.23 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527120108778666111; Content Length: 66.78 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527120643874666111; Content Length: 68.78 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220527131046399666111; Content Length: 65.88 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN/talend.log66620220531051851258666111; Content Length: 66.06 KiB
+INFO: masterdata/common_dimensions_masterdata/dim_enterprise_common_product_multigrain/myRC.txt; Content Length: 255.29 KiB
+<searchlog>limit  : LIMIT 100<searchlog/>
+<searchlog>sourceTableCount  :100<searchlog/>
+<searchlog>loadType  :F<searchlog/>
+<searchlog>delimiter  :SOH<searchlog/>
+<searchlog>HDP_Ref_Principal or Username  :eb_onswd<searchlog/>
+<searchlog>localFolder  :/opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN<searchlog/>
+<searchlog>noofIterations  :3<searchlog/>
+<searchlog>databaseName  :COMMON_DIMENSIONS_MASTERDATA<searchlog/>
+<searchlog>uowId  :666111<searchlog/>
+<searchlog>azureRootDir  :/masterdata/common_dimensions_masterdata<searchlog/>
+<searchlog>sbowId  :66611<searchlog/>
+<searchlog>sparkMemory  :10g<searchlog/>
+<searchlog>batchExecutionQuery  :SELECT isnull(Batch_Control_ID,batch_execution_id) as Batch_Execution_ID FROM  CNTRL.Batch_Execution WITH(NOLOCK) WHERE BOW_unique_ID= '6661' and Batch_Execution_Start_Date=(SELECT MAX(Batch_Execution_Start_Date) FROM  CNTRL.Batch_Execution WITH (NOLOCK) WHERE  BOW_unique_ID= '6661')<searchlog/>
+<searchlog>tableName  :DIM_ENTERPRISE_COMMON_PRODUCT_MULTIGRAIN<searchlog/>
+<searchlog>fileType  :PARQUET<searchlog/>
+************AzCopy Log File Done***********
+<searchlog>origin :<searchlog/>
+<searchlog>Hive_Thrift_Port :2181<searchlog/>
+<searchlog>jobName :<searchlog/>
+<searchlog>contextCtrlTblNmADLSGen2:CONTEXT_CONTROL_R01<searchlog/>
+<searchlog>sourceQueryOrcParquet:<searchlog/>
+<searchlog>HDP_Ref_dfs_ha_namenodes_hdpcldperf:<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_hdpdevnn_nn2 :<searchlog/>
+<searchlog>sourceTableCount :null<searchlog/>
+<searchlog>ControlFrameWork_ABCR_SQLDB_DB  :ebdev-ebi-adb-infrastructure<searchlog/>
+<searchlog>sourceSystemName  :<searchlog/>
+<searchlog>HpsmCtrlTblNm  :Tera_Load_Stats<searchlog/>
+<searchlog>uowPvsCdcEndTimestamp  :null<searchlog/>
+<searchlog>kv_crm_msdux2_usr_secret  :crm-dev-msdux2-usr-secret<searchlog/>
+<searchlog>Hive_AdditionalJDBCParameters  :serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2<searchlog/>
+<searchlog>greaterThanEqualTo  :<searchlog/>
+<searchlog>currentMinute  :<searchlog/>
+<searchlog>controlFrameWorkSQLDBPasswordKey  :ebi-adb-infrastructure-Execute-key<searchlog/>
+<searchlog>HDP_Ref_mapreduce_application_classpath  :$PWD/mr-framework/hadoop/share/hadoop/mapreduce/*:$PWD/mr-framework/hadoop/share/hadoop/mapreduce/lib/*:$PWD/mr-framework/hadoop/share/hadoop/common/*:$PWD/mr-framework/hadoop/share/hadoop/common/lib/*:$PWD/mr-framework/hadoop/share/hadoop/yarn/*:$PWD/mr-framework/hadoop/share/hadoop/yarn/lib/*:$PWD/mr-framework/hadoop/share/hadoop/hdfs/*:$PWD/mr-framework/hadoop/share/hadoop/hdfs/lib/*:$PWD/mr-framework/hadoop/share/hadoop/tools/lib/*:/usr/hdp/2.6.4.0-91/hadoop/lib/hadoop-lzo-0.6.0.2.6.4.0-91.jar:/etc/hadoop/conf/secure<searchlog/>
+<searchlog>sparkHdpEventLogDir  :hdfs://edldevnn/spark2-history<searchlog/>
+<searchlog>Talend_log_File_Extn  :.log<searchlog/>
+<searchlog>Hive_Port  :2181<searchlog/>
+<searchlog>cdcExtractColumn  :<searchlog/>
+<searchlog>kv_Application_id  :41334555-cdbf-4206-bc6e-ce67ac62f21e<searchlog/>
+<searchlog>HDP_Ref_dfs_ha_namenodes_env  :dfs.ha.namenodes.edldevnn<searchlog/>
+<searchlog>kvProxyPort  :8080<searchlog/>
+<searchlog>kvCertsPwd  :1234<searchlog/>
+<searchlog>additionalFilterCondition  :<searchlog/>
+<searchlog>uowCdcStartTimestamp  :null<searchlog/>
+<searchlog>Batch_Execution_ID  :525547f6-561e-494a-898c-c67189f639da<searchlog/>
+<searchlog>kv_TERAControlFrameWorkABCRPassword  :ebi-adb-infrastructure-Execute-key<searchlog/>
+<searchlog>ControlFrameWork_ABCR_SQLDB_Server  :ebdev-ebi-adbsvr-infrastruct.database.windows.net<searchlog/>
+<searchlog>Hive_Thrift_Server  :g8t00839s.inc.hpicorp.net,g8t00843s.inc.hpicorp.net,g8t00847s.inc.hpicorp.net,g8t00855s.inc.hpicorp.net,g8t00861s.inc.hpicorp.net<searchlog/>
+<searchlog>countSql  :<searchlog/>
+<searchlog>groupId  :666<searchlog/>
+<searchlog>tableNameSuffix  :<searchlog/>
+<searchlog>uowPvsCdcStartTimestamp  :null<searchlog/>
+<searchlog>Context_FileName  :<searchlog/>
+<searchlog>azureBlobFileMaskParquetDone  :*.done<searchlog/>
+<searchlog>Hive_KeyTab  :/etc/security/app-sa-keytabs/eb_onswd_dev.keytab<searchlog/>
+<searchlog>kv_anaplan_dev_secret_passkey  :gDPVJRiFkQS/hvQeSjAME/YLxIvrtIqnLyDSOnbhIVg=<searchlog/>
+<searchlog>SqoopDB_Password_Key  :<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_hdpcldperf_nn1  :<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_hdpcldperf_nn2  :<searchlog/>
+<searchlog>kvCertsFile  :/opt/apps/kai/certs/passcert.pfx<searchlog/>
+<searchlog>sparkHdpResourceManagerScheduler  :g8t00847s.inc.hpicorp.net:8030,g8t00839s.inc.hpicorp.net:8030<searchlog/>
+<searchlog>uowRunStartTimestamp  :<searchlog/>
+<searchlog>SqoopDB_Password_Key_Prop1  :null<searchlog/>
+<searchlog>project  :<searchlog/>
+<searchlog>uowCdcStartTimestampStr  :<searchlog/>
+<searchlog>kv_TERASAPPassword  :sap-dev-secret<searchlog/>
+<searchlog>HDP_Ref_yarn_resourcemanager_cluster_id  :yarn-cluster<searchlog/>
+<searchlog>HDP_Ref_JobHistory  :g8t00839s.inc.hpicorp.net:10020<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_env_nn2_val  :g8t00839s.inc.hpicorp.net:8020<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_env_nn1  :dfs.namenode.rpc-address.edldevnn.nn1<searchlog/>
+<searchlog>uowCtrlTblNm  :UOW_CONTROL<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_env_nn2  :dfs.namenode.rpc-address.edldevnn.nn2<searchlog/>
+<searchlog>hdfsOutputBasePath  :<searchlog/>
+<searchlog>job  :<searchlog/>
+<searchlog>HDP_Ref_NameNodeUri  :hdfs://g8t00839s.inc.hpicorp.net:8020<searchlog/>
+<searchlog>uowRunEndTimestamp  :<searchlog/>
+<searchlog>HDP_Ref_NameNodeUri  :hdfs://g8t00839s.inc.hpicorp.net:8020<searchlog/>
+<searchlog>Tera_Hive_SparkPrincipal  :hive/g4t2956.houston.hpicorp.net@HADOOPDEV.HOUSTON.HPICORP.NET<searchlog/>
+<searchlog>HDP_Ref_mapreduce_jobhistory_intermediate_done_dir  :/mr-history/tmp<searchlog/>
+<searchlog>controlTblSchema  :CNTRL<searchlog/>
+<searchlog>kv_TERAControlFrameWorkSQLDBPassword  :ebi-adb-infrastructure-Execute-key<searchlog/>
+<searchlog>BOWName  :EDL1<searchlog/>
+<searchlog>SBOWName  :EDL1<searchlog/>
+<searchlog>partitioningTime  :null<searchlog/>
+<searchlog>currentYear  :<searchlog/>
+<searchlog>Hive_Database  :orders_and_shipments<searchlog/>
+<searchlog>resourceConfigTblNm  :RESOURCE_CONFIGURATION<searchlog/>
+<searchlog>Hive_NameNodePrin  :nn/_HOST@HADOOPDEV.PLANO.HPICORP.NET<searchlog/>
+<searchlog>logical_deletion_indicator  :￿<searchlog/>
+<searchlog>uowStatus  :￿<searchlog/>
+<searchlog>currentDate  :<searchlog/>
+<searchlog>tableNamePrefix  :<searchlog/>
+<searchlog>kv_TERASQLCRMPassword  :crm-dev-secret<searchlog/>
+<searchlog>fileMaskOrcParquet  :part<searchlog/>
+<searchlog>sparkCores  :null<searchlog/>
+<searchlog>HDP_Ref_yarn_resourcemanager_hostname_rm1  :g8t00839s.inc.hpicorp.net<searchlog/>
+<searchlog>HDP_Ref_mapreduce_application_framework_path  :/hdp/apps/2.6.4.0-91/mapreduce/mapreduce.tar.gz#mr-framework<searchlog/>
+<searchlog>kv_TERA_SQL_ECLIPSE_Password  :eclipse-dev-secret<searchlog/>
+<searchlog>HDP_Ref_yarn_resourcemanager_hostname_rm2  :g8t00847s.inc.hpicorp.net<searchlog/>
+<searchlog>Hive_Server  :g8t00839s.inc.hpicorp.net<searchlog/>
+<searchlog>targetTableName  :<searchlog/>
+<searchlog>HDP_Ref_dfs_client_failover_proxy_provider_hdpcldperf  :<searchlog/>
+<searchlog>sourceQuery  :<searchlog/>
+<searchlog>HDP_Ref_ResourceManagerScheduler  :g8t00847s.inc.hpicorp.net:8030,g8t00839s.inc.hpicorp.net:8030<searchlog/>
+<searchlog>scriptsDirectory  :/executables/datadistillation/scripts/<searchlog/>
+<searchlog>azureContainer  :landing<searchlog/>
+<searchlog>HDP_Ref_dfs_ha_namenodes_hdpitgnn  :<searchlog/>
+<searchlog>Exec_Code  :<searchlog/>
+<searchlog>Talend_log_file  :talend<searchlog/>
+<searchlog>azcopyFolderLocation  :<searchlog/>
+<searchlog>bowId  :6661<searchlog/>
+<searchlog>kv_certs_file  :/opt/apps/kai/certs/passcert.pfx<searchlog/>
+<searchlog>kv_ControlFrameWork_ABCR_SQLDB_Password  :<searchlog/>
+<searchlog>batch_id  :525547f6-561e-494a-898c-c67189f639da<searchlog/>
+<searchlog>Hive_KeyTabPrincipal  :eb_onswd<searchlog/>
+<searchlog>source_Type  :<searchlog/>
+<searchlog>sparkDriverMemory  :<searchlog/>
+<searchlog>DeleteCount  :null<searchlog/>
+<searchlog>TERA_ControlFrameWork_SQLDB_Server  :ebdev-ebi-adbsvr-infrastruct.database.windows.net<searchlog/>
+<searchlog>lookupTableName  :<searchlog/>
+<searchlog>logCtrlTblNm  :Log_Control_R01<searchlog/>
+<searchlog>Execution_Server_ID  :null<searchlog/>
+<searchlog>Tera_Hive_SparkResourceManager  :g4t2955.houston.hpicorp.net:8032<searchlog/>
+<searchlog>sparkConfig  :<searchlog/>
+<searchlog>partitionColumn  :<searchlog/>
+<searchlog>HDP_Ref_JTOrRMPrin  :rm/_HOST@HADOOPDEV.PLANO.HPICORP.NET<searchlog/>
+<searchlog>code  :null<searchlog/>
+<searchlog>uowPvsCdcEndTimestampStr  :<searchlog/>
+<searchlog>HDP_Ref_dfs_client_failover_proxy_provider_env_val  :org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider<searchlog/>
+<searchlog>HDP_Ref_KeyTab  :/etc/security/app-sa-keytabs/eb_onswd_dev.keytab<searchlog/>
+<searchlog>kv_TERAAzureLandingAccountKey  :TERAAzureLandingAccountKey<searchlog/>
+<searchlog>HDP_Ref_mapreduce_jobhistory_done_dir  :/mr-history/done<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_hdpitgnn_nn1  :<searchlog/>
+<searchlog>HDP_Ref_dfs_client_failover_proxy_provider_hdpitgnn  :<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_hdpitgnn_nn2  :<searchlog/>
+<searchlog>BatchExecCtrlTblNm  :Batch_Execution<searchlog/>
+<searchlog>Hive_JTOrRMPrinHive_JTOrRMPrin  :rm/_HOST@HADOOPDEV.PLANO.HPICORP.NET<searchlog/>
+<searchlog>insertQuerySQLTemplate  :<searchlog/>
+<searchlog>loadJobNumberSource  :<searchlog/>
+<searchlog>SBOWDistillationName  :EDL1<searchlog/>
+<searchlog>Hive_Password  :<searchlog/>
+<searchlog>BatchExecStatus  :S<searchlog/>
+<searchlog>uowCdcEndTimestampStr  :<searchlog/>
+<searchlog>HDP_Ref_dfs_nameservices  :edldevnn<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_hdpdevnn_nn1:<searchlog/>
+<searchlog>ControlFrameWork_ABCR_SQLDB_Password: $OtBMBauAW2xMeX<searchlog/>
+<searchlog>contextfile: /opt/apps/tera/context/Dist_HA_IIB.properties<searchlog/>
+<searchlog>sparkHdpHistoryAddress: http://http://g8t00847s.inc.hpicorp.net:18081/<searchlog/>
+<searchlog>Hive_Principal: hive/_HOST@HADOOPDEV.PLANO.HPICORP.NET<searchlog/>
+<searchlog>HDP_Ref_yarn_application_classpath: /usr/hdp/2.6.4.0-91/hadoop/conf:/usr/hdp/2.6.4.0-91/hadoop/lib/*:/usr/hdp/2.6.4.0-91/hadoop/.//*:/usr/hdp/2.6.4.0-91/hadoop-hdfs/./:/usr/hdp/2.6.4.0-91/hadoop-hdfs/lib/*:/usr/hdp/2.6.4.0-91/hadoop-hdfs/.//*:/usr/hdp/2.6.4.0-91/hadoop-yarn/lib/*:/usr/hdp/2.6.4.0-91/hadoop-yarn/.//*:/usr/hdp/2.6.4.0-91/hadoop-mapreduce/lib/*:/usr/hdp/2.6.4.0-91/hadoop-mapreduce/.//*::mysql-connector-java-5.1.17.jar:mysql-connector-java-5.1.38-bin.jar:mysql-connector-java.jar:ojdbc6.jar:/usr/hdp/2.6.4.0-91/tez/*:/usr/hdp/2.6.4.0-91/tez/lib/*:/usr/hdp/2.6.4.0-91/tez/conf<searchlog/>
+<searchlog>currentDay: <searchlog/>
+<searchlog>loadJobNumber: null<searchlog/>
+<searchlog>controlFrameWorkSQLDBPassword_Key: ebi-adb-infrastructure-Execute-key<searchlog/>
+<searchlog>HDP_Ref_dfs_client_failover_proxy_provider_HDPPRODNN: <searchlog/>
+<searchlog>logDirectory: TalendLog/<searchlog/>
+<searchlog>HDP_Ref_dfs_ha_namenodes_env_val: nn1,nn2<searchlog/>
+<searchlog>fileCompression: snappy<searchlog/>
+<searchlog>sourceTableName: <searchlog/>
+<searchlog>azureLandingAccountKeyProp: ?sv=2019-07-07&sig=hDLO7dQst7V1PjUMqcsI4yZId0Tpqk026m09iX0D%2FRk%3D&spr=https&st=2022-04-05T16%3A59%3A34Z&se=2022-06-05T16%3A59%3A34Z&srt=sco&ss=bfqt&sp=racupwdl<searchlog/>
+<searchlog>HDP_Ref_dfs_client_failover_proxy_provider_hdpdevnn: <searchlog/>
+<searchlog>message: <searchlog/>
+<searchlog>dataSubjectGroupName: <searchlog/>
+<searchlog>uowCdcEndTimestamp: null<searchlog/>
+<searchlog>TERA_ControlFrameWork_SQLDB_Port: 1433<searchlog/>
+<searchlog>TERA_ControlFrameWork_SQLDB_Schema: CNTRL<searchlog/>
+<searchlog>sparkDeployMode: <searchlog/>
+<searchlog>HDP_Ref_Principal_HostName: eb_onswd@HADOOPDEV.PLANO.HPICORP.NET<searchlog/>
+<searchlog>kv_TERASQLPassword: TERASQLPassword<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_env_nn1_val: g8t00847s.inc.hpicorp.net:8020<searchlog/>
+<searchlog>contextCtrlTblNm: CONTEXT_CONTROL_R01<searchlog/>
+<searchlog>HDP_Ref_mapreduce_job_am_access_disabled: TRUE<searchlog/>
+<searchlog>HDP_Ref_dfs_client_failover_proxy_provider_edldevnn: org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider<searchlog/>
+<searchlog>azureLandingAccountName: ebdevebiadls<searchlog/>
+<searchlog>kvProxyHost: web-proxy.austin.hpicorp.net<searchlog/>
+<searchlog>hdfsOutputFileName: <searchlog/>
+<searchlog>HDP_Ref_Principal: eb_onswd<searchlog/>
+<searchlog>kv_anaplan_dev_secret_storageaccount: 2JEQow6cuu+4E4b86HFNsRjGg8oXgtFsWLYay6yQsPzZ/OmnvWi06RXBVKvLS/efHvHJ0VzPUDsblqgfEdSiGw==<searchlog/>
+<searchlog>targetTableCount: null<searchlog/>
+<searchlog>groupCtrlTblNm: GBOW_UOW_CONTROL<searchlog/>
+<searchlog>azureLandingAccountKey: ebdev-ebi-dataestateadlsstorage-sas-key<searchlog/>
+<searchlog>kv_Proxy_Port: 8080<searchlog/>
+<searchlog>DataSubject_Group_Name: <searchlog/>
+<searchlog>uowIdDist: null<searchlog/>
+<searchlog>Batch_Control_id: <searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_HDPPRODNN_nn2: <searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_HDPPRODNN_nn1: <searchlog/>
+<searchlog>TERA_ControlFrameWork_SQLDB_DB: ebdev-ebi-adb-infrastructure<searchlog/>
+<searchlog>ControlFrameWork_ABCR_SQLDB_Additional_Params: <searchlog/>
+<searchlog>HDP_Ref_ResourceManager: g8t00839s.inc.hpicorp.net:8032,g8t00847s.inc.hpicorp.net:8032<searchlog/>
+<searchlog>gbowId: null<searchlog/>
+<searchlog>HDP_Ref_dfs_ha_namenodes_hdpdevnn: <searchlog/>
+<searchlog>HDP_Ref_NameNodePrin: nn/_HOST@HADOOPDEV.PLANO.HPICORP.NET<searchlog/>
+<searchlog>targetDataBaseName: <searchlog/>
+<searchlog>HDP_Ref_StagingDirectory: /tmp<searchlog/>
+<searchlog>azcopyScript: azcopy_edltoazure.sh<searchlog/>
+<searchlog>HDP_Ref_dfs_ha_namenodes_edldevnn: nn1,nn2<searchlog/>
+<searchlog>TERA_ControlFrameWork_SQLDB_Username: Tera4Execute<searchlog/>
+<searchlog>homeDirectoryEdgeNode: /opt/apps/tera/<searchlog/>
+<searchlog>fileExtension: .par<searchlog/>
+<searchlog>bowCtrlTblNm: BOW_CONTROL<searchlog/>
+<searchlog>kv_TERA_SQL_UAM_Password: uam-dev-secret<searchlog/>
+<searchlog>Tera_Hive_SparkPort: 9083<searchlog/>
+<searchlog>sparkPropertiesTempDir: /tmp<searchlog/>
+<searchlog>Hive_hiveThriftAdditionalJDBCParameters: serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2<searchlog/>
+<searchlog>sbowCtrlTblNm: SBOW_CONTROL<searchlog/>
+<searchlog>HDP_Ref_yarn_resourcemanager_ha_enabled: TRUE<searchlog/>
+<searchlog>HDP_Ref_dfs_client_failover_proxy_provider_env: dfs.client.failover.proxy.provider.edldevnn<searchlog/>
+<searchlog>TERA_Azure_Landing_AccountName: ebdevebisthtemp<searchlog/>
+<searchlog>Hive_JDBC_Beeline_Url: g8t00839s.inc.hpicorp.net:2181,g8t00843s.inc.hpicorp.net:2181,g8t00855s.inc.hpicorp.net:2181,g8t00861s.inc.hpicorp.net:2181<searchlog/>
+<searchlog>sparkHdpJobHistory: jhs/_HOST@HADOOPDEV.PLANO.HPICORP.NET<searchlog/>
+<searchlog>HDP_Ref_dfs_ha_namenodes_HDPPRODNN: <searchlog/>
+<searchlog>DataSubject_Group_Name1: <searchlog/>
+<searchlog>kvSQLCRMPassword: crm-dev-secret<searchlog/>
+<searchlog>sparkHdpJtorrmPrin: rm/_HOST@HADOOPDEV.PLANO.HPICORP.NET<searchlog/>
+<searchlog>ControlFrameWork_ABCR_SQLDB_Port: 1433<searchlog/>
+<searchlog>CDCTblnm: BOW_CDC_AUX_CONTROL_R01<searchlog/>
+<searchlog>uowPvsCdcStartTimestampStr: <searchlog/>
+<searchlog>currentTimestamp: <searchlog/>
+<searchlog>currentMonth: <searchlog/>
+<searchlog>Talend_log_Folder: /opt/apps/EDWExtractHubHPI_SharedPro/TERA/tmp/<searchlog/>
+<searchlog>sbowId_distillation: 66611<searchlog/>
+<searchlog>azureBlobFile: <searchlog/>
+<searchlog>kv_TERAOraclePassword: pmaster-dev-secret<searchlog/>
+<searchlog>sparkHdpJobHistoryPrin: jhs/_HOST@HADOOPDEV.PLANO.HPICORP.NET<searchlog/>
+<searchlog>HDP_Ref_yarn_resourcemanager_ha_rm_ids: rm1,rm2<searchlog/>
+<searchlog>kvApplicationId: 41334555-cdbf-4206-bc6e-ce67ac62f21e<searchlog/>
+<searchlog>ControlFrameWork_ABCR_SQLDB_Username: Tera4Execute<searchlog/>
+<searchlog>SQLCRM_Password: $h[P%s@L@s75?<searchlog/>
+<searchlog>TERA_ControlFrameWork_SQLDB_Additional_Params: <searchlog/>
+<searchlog>context_HPSM: <searchlog/>
+<searchlog>kv_Proxy_Host: web-proxy.austin.hpicorp.net<searchlog/>
+<searchlog>sourceDataBaseName: <searchlog/>
+<searchlog>kv_TERA_CRM_AUDIT_Password: crm-dev-secret-Audit<searchlog/>
+<searchlog>UOWName: <searchlog/>
+<searchlog>ControlFrameWork_ABCR_SQLDB_Schema: CNTRL<searchlog/>
+<searchlog>currentHour: <searchlog/>
+<searchlog>partitionDateFormat: yyyyMM<searchlog/>
+<searchlog>HDP_Queue_Name: terasupplychain<searchlog/>
+<searchlog>edlExtractScript: edl_extract_script.sh<searchlog/>
+<searchlog>sparkHdpResourceManager: g8t00839s.inc.hpicorp.net:8032,g8t00847s.inc.hpicorp.net:8032<searchlog/>
+<searchlog>Tera_Spark_WebUIPort: 4043<searchlog/>
+<searchlog>LoadJobNumberStr: <searchlog/>
+<searchlog>version: <searchlog/>
+<searchlog>kv_TERASQLCTPassword: crm-dev-secret-CTtable<searchlog/>
+<searchlog>Batchnum: null<searchlog/>
+<searchlog>entityMappingCtrlTblNm: ENTITY_MAPPING<searchlog/>
+<searchlog>azureBlobFileMaskParquet: *.par<searchlog/>
+<searchlog>sparkExecutors: null<searchlog/>
+<searchlog>dataSubGroupName: ONS<searchlog/>
+<searchlog>hdfsArchivePath: /certified/domain/sales/azureBlobExtractArchive/<searchlog/>
+<searchlog>HDP_Ref_dfs_namenode_rpc_address_edldevnn_nn1: g8t00847s.inc.hpicorp.net:8020<searchlog/>
+<searchlog>HDP_Ref_JobHistroyPrin: jhs/_HOST@HADOOPDEV.PLANO.HPICORP.NET<searchlog/>
+<searchlog>azureBlobFolder: <searchlog/>
+<searchlog>keyVaultUrl: https://ebdev-sls-key.vault.azure.net/<searchlog/>
+<searchlog>Hive_Login: <searchlog/>
+<searchlog>HDP_Ref_dfs_nameservices: edldevnn<searchlog/>
+<searchlog>uowCdcEndTimestampStr: <searchlog/>
+[INFO]: Azure Landing Batch Job Ended.
+[statistics] disconnected
+
+
+Job Job_dis_con_000_AzurelandingPartV2_1_Contra_Fin ended at 10:48 31/05/2022. [Exit code  = 0]
